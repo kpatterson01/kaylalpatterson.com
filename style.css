@@ -3,6 +3,18 @@ html {
     color: white; 
     text-align: center; 
 }
+/* Chrome, Safari */
+::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+    }
+    ::-webkit-scrollbar-track-piece  {
+    background-color: #080A4B;
+    }
+    ::-webkit-scrollbar-thumb:vertical {
+    height: 30px;
+    background-color:#D014BA;
+    }
 
 /*Navigation Bar*/
 nav {
@@ -42,4 +54,27 @@ nav a {
 nav a:hover {
     color: rgb(154, 154, 154);
     text-decoration: none; 
+}
+
+/*Sections*/
+.cover-page {
+    background: #080a4b; 
+    height: 100vh; 
+    padding-left: 16%; 
+    padding-top: 13%; 
+}
+
+#intro { 
+    color: white;
+    font-size: 45px;  
+}
+
+#name {
+    color: #D014BA; 
+    font-size: 70px; 
+}
+
+#summary {
+    color: #A5A2A4; 
+    font-size: 20px; 
 }
