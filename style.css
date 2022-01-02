@@ -78,3 +78,60 @@ nav a:hover {
     color: #A5A2A4; 
     font-size: 20px; 
 }
+
+.examplediv {
+    margin-left: 650px;
+    margin-top: -750px; 
+    width: 50px;
+    height: 1400px;
+    background-color: white;
+    /* Rotate div */
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.exampletext {
+    /* Rotate p back so that only div is rotated. */
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+}
+
+.examplediv1 {
+    margin-left: 400px;
+    margin-top: -850px; 
+    width: 25px;
+    height: 900px;
+    background-color: #D014BA;
+    /* Rotate div */
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.exampletext1 {
+    /* Rotate p back so that only div is rotated. */
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+}
+
+.examplediv2 {
+    margin-left: 440px;
+    margin-top: -850px; 
+    width: 15px;
+    height: 500px;
+    background-color: #A5A2A4;
+    /* Rotate div */
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.exampletext2 {
+    /* Rotate p back so that only div is rotated. */
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+}
