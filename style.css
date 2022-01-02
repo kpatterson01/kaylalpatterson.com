@@ -115,6 +115,8 @@ nav a:hover {
     -ms-transform: rotate(-45deg); /* IE 9 */
     -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
     transform: rotate(-45deg);
+    z-index: -800; 
+
 }
 
 .examplediv2 {
@@ -134,4 +136,59 @@ nav a:hover {
     -ms-transform: rotate(-45deg); /* IE 9 */
     -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
     transform: rotate(-45deg);
+}
+
+.about-me {
+    background: #080A4B;
+    height: 75vh; 
+ 
+}
+
+#abt-txt {
+    color: #A5A2A4; 
+    font-size: 70px;  
+    margin-left: 900px; 
+}
+
+#square1 {
+    width: 650px; 
+    height: 450px; 
+    background: #D014BA; 
+    margin-left: 300px; 
+    z-index: 1000000; 
+}
+
+#square2 {
+    width: 650px; 
+    height: 450px; 
+    background: #A5A2A4; 
+    margin-left: 350px; 
+    margin-top: -400px; 
+    color: white; 
+    position: relative; 
+    z-index: 1000000; 
+}
+
+#abt-summary {
+    padding-left: 35px; 
+    padding-right: 35px; 
+    padding-top: 50px; 
+    font-size: 30px; 
+    text-align: center; 
+}
+
+.headshot {
+    margin-top: -300px; 
+    margin-left: 620px; 
+}
+
+.exp {
+    background: #080A4B; 
+    height: 85vh; 
+}
+
+#exp-txt {
+    color: #A5A2A4; 
+    font-size: 70px;  
+    margin-left: 100px; 
 }
