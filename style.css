@@ -3,3 +3,43 @@ html {
     color: white; 
     text-align: center; 
 }
+
+/*Navigation Bar*/
+nav {
+    display: flex;
+    background: #080A4B;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 9vh;
+}
+
+.logo {
+	color: white;
+    padding-inline-start: 10px;
+    border-style: solid; 
+    border-color: #D014BA; 
+}
+
+.nav-links {
+    display: flex;
+	justify-content: space-around;
+    width: 30%;
+    list-style: none; 
+}
+
+nav li {
+	list-style: none;
+}
+
+nav a {
+	color: #D014BA;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	padding-inline-end: 20px;
+}
+
+nav a:hover {
+    color: rgb(154, 154, 154);
+    text-decoration: none; 
+}
