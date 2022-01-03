@@ -184,11 +184,48 @@ nav a:hover {
 
 .exp {
     background: #080A4B; 
-    height: 85vh; 
+    height: 100vh; 
 }
 
 #exp-txt {
     color: #A5A2A4; 
     font-size: 70px;  
     margin-left: 100px; 
+}
+
+.vertical {
+    border-left: 6px solid #D014BA;
+    height: 900px;
+    position:absolute;
+    left: 50%;
+}
+
+/*style for the left side and right side*/
+.timelime-header {
+    color: white; 
+    font-size: 45px;
+    font-weight: bold; 
+}
+
+.left-align {
+    margin-left: 55%; 
+}
+
+.right-align {
+    margin-left: 15%; 
+}
+
+.list-style {
+    color: #A5A2A4; 
+    font-size: 23px; 
+}
+
+.add-space {
+    padding-top: 10px; 
+}
+
+.skills {
+    background: #080A4B;
+    height: 75vh; 
+ 
 }
