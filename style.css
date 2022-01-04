@@ -241,3 +241,19 @@ nav a:hover {
     background: #080A4B; 
     height: 75vh; 
 }
+
+/*Footer*/
+footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5em;
+    background-color:black; 
+    color: white;
+    text-align: center;
+ }
+
+ .p-down {
+     padding-top: 30px; 
+ }
