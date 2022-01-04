@@ -225,7 +225,19 @@ nav a:hover {
 }
 
 .skills {
+    padding-top: 25px; 
     background: #080A4B;
+    height: 100vh; 
+}
+
+#skill-txt {
+    color: #A5A2A4; 
+    font-size: 70px;  
+    padding-left: 43%; 
+    margin-top: 200px;    
+}
+
+.contact {
+    background: #080A4B; 
     height: 75vh; 
- 
 }
